@@ -8,7 +8,7 @@
         "### version v[version]"
       ]
     ],
-    "src/components/*": [
+    "src/components/*.vue": [
       [
         "^ * Version ?v?(.*)",
         " * Version v[version]"
