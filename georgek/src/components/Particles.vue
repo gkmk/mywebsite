@@ -1,7 +1,3 @@
-<template>
-  <div id="particles-js"></div>
-</template>
-
 <script>
 require("particles.js");
 
@@ -20,6 +16,11 @@ export default {
   }
 };
 </script>
+
+<template>
+  <div id="particles-js"></div>
+</template>
+
 <style scoped>
 #particles-js {
   width: 100%;

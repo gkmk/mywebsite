@@ -1,7 +1,77 @@
 {
-    "files": {
-      "README.md": [
-        ["^### version ?v?(.*)", "### version v[version]-alpha"]
+  "force": true, 
+  "silent": true, 
+  "files": { 
+    "README.md": [
+      [
+        "^### version ?v?(.*)",
+        "### version v[version]"
       ]
+    ]
+  },
+  "version": {
+    "enabled": true, 
+    "initial": "[date].0", 
+    "increments": [
+      "major",
+      "minor",
+      "patch",
+      "premajor",
+      "preminor",
+      "prepatch",
+      "prerelease",
+      "custom"
+    ] 
+  },
+  "changelog": {
+    "enabled": true,
+    "create": true, 
+    "open": true, 
+    "file": "CHANGELOG.md", 
+    "version": "### Version [version]", 
+    "commit": "- [message]", 
+    "separator": "\n" 
+  },
+  "commit": {
+    "enabled": true, 
+    "message": "Bumped version to [version]" 
+  },
+  "tag": {
+    "enabled": true, 
+    "name": "v[version]" 
+  },
+  "release": {
+    "enabled": false, 
+    "github": {
+      "enabled": false, 
+      "open": true, 
+      "draft": true,
+      "prerelease": false, 
+      "files": [], 
+      "filesNr": -1, 
+      "token": "", 
+      "owner": "", 
+      "repo": "" 
     }
+  },
+  "tokens": {
+    "date": {
+      "format": "YYYY.MM"
+    },
+    "version_date": {
+      "format": "YYYY-MM-DD" 
+    }
+  },
+  "scripts": {
+    "prebump": "", 
+    "postbump": "",
+    "prechangelog": "",
+    "postchangelog": "", 
+    "precommit": "", 
+    "postcommit": "", 
+    "pretag": "",
+    "posttag": "", 
+    "prerelease": "", 
+    "postrelease": "" 
   }
+}
