@@ -1,6 +1,6 @@
 {
-  "force": false, 
-  "silent": false, 
+  "force": true, 
+  "silent": true, 
   "files": { 
     "README.md": [
       [
