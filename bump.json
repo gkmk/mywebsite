@@ -10,8 +10,8 @@
     ],
     "src/components/*.vue": [
       [
-        "^ * Version ?v?(.*)",
-        " * Version v[version]"
+        "^ /* Version ?v?(.*)",
+        " /* Version v[version]"
       ]
     ]
   },
