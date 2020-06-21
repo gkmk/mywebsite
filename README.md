@@ -2,4 +2,4 @@
 ## Creating the cheapest high availability personal portfolio website
 
 
-### version v2020.6.6
+### version v2020.6.7-alpha
