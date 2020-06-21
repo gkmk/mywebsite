@@ -56,7 +56,7 @@
   },
   "tokens": {
     "date": {
-      "format": "YYYY-MM"
+      "format": "YYYY.MM"
     },
     "version_date": {
       "format": "YYYY-MM-DD" 
