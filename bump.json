@@ -1,7 +1,7 @@
 {
     "files": {
       "README.md": [
-        ["^# stdinho ?v?(.*)", "# stdinho v[version]"]
+        ["^### version ?v?(.*)", "### version v[version]"]
       ]
     }
   }
