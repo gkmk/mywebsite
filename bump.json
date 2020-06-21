@@ -37,7 +37,7 @@
     "message": "Bumped version to [version]" 
   },
   "tag": {
-    "enabled": false, 
+    "enabled": true, 
     "name": "v[version]" 
   },
   "release": {
