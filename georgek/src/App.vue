@@ -1,16 +1,24 @@
 <template>
   <div id="app">
-    <hello-world/>
+    <hello-world v-if="DEMO_MODE"/>
+    <my-website v-else/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/demo/HelloWorld.vue'
+import MyWebsite from './components/app/MyWebsite.vue'
 
 export default {
   name: 'App',
+  data: function() {
+    return {
+      DEMO_MODE: true
+    }
+  },
   components: {
-    HelloWorld
+    HelloWorld,
+    MyWebsite
   }
 }
 </script>
