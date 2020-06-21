@@ -7,6 +7,7 @@
         <b>George Klincarski's</b> personal website!
       </h1>
       <h5>This website is not meant to be public, yet &#128517;</h5>
+      <br />
       <p>
         Since you landed here already feel free to browse my
         <a href="https://github.com/gkmk">GitHub</a>
@@ -16,7 +17,10 @@
       <h4>
         Please wait until i learn
         <a href="https://vuejs.org/">Vue.js</a>
-        <br />and build the cheapest high availability ultra blazing fast and high tech personal portfolio website
+        <br />and build the cheapest;
+        <br />high availability;
+        <br />ultra blazing fast;
+        <br />high tech personal portfolio website
       </h4>
     </article>
   </div>
