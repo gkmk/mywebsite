@@ -1,3 +1,13 @@
+<script>
+/**
+ * Version v0.0.1
+ */
+
+export default {
+  name: "Welcome"
+};
+</script>
+
 <template>
   <div class="welcome">
     <img alt="Gkmk logo" src="../assets/img/gkmk.png" />
@@ -25,16 +35,6 @@
     </article>
   </div>
 </template>
-
-<script>
-/**
- * Version v0.0.1
- */
-
-export default {
-  name: "Particles"
-};
-</script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

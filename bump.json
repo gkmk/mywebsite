@@ -17,7 +17,7 @@
   },
   "version": {
     "enabled": true, 
-    "initial": "2020.6.0", 
+    "initial": "[date].0", 
     "increments": [
       "major",
       "minor",
@@ -30,7 +30,7 @@
     ] 
   },
   "changelog": {
-    "enabled": true,
+    "enabled": false,
     "create": true, 
     "open": true, 
     "file": "CHANGELOG.md", 
@@ -43,7 +43,7 @@
     "message": "Bumped version to [version]" 
   },
   "tag": {
-    "enabled": true, 
+    "enabled": false, 
     "name": "v[version]" 
   },
   "release": {
@@ -62,22 +62,22 @@
   },
   "tokens": {
     "date": {
-      "format": "YYYY-MM-DD" // Moment.js format to use when generating the `[date]` token
+      "format": "YYYY-MM"
     },
     "version_date": {
-      "format": "YYYY-MM-DD" // Moment.js format to use when generating the `[version_date]` token
+      "format": "YYYY-MM-DD" 
     }
   },
   "scripts": {
-    "prebump": "", // Script to execute before bumping the version
-    "postbump": "", // Script to execute after bumping the version
-    "prechangelog": "", // Script to execute before updating the changelog
-    "postchangelog": "", // Script to execute after updating the changelog
-    "precommit": "", // Script to execute before committing
-    "postcommit": "", // Script to execute after committing
-    "pretag": "", // Script to execute before tagging
-    "posttag": "", // Script to execute after tagging
-    "prerelease": "", // Script to execute before releasing
-    "postrelease": "" // Script to execute after releasing
+    "prebump": "", 
+    "postbump": "",
+    "prechangelog": "",
+    "postchangelog": "", 
+    "precommit": "", 
+    "postcommit": "", 
+    "pretag": "",
+    "posttag": "", 
+    "prerelease": "", 
+    "postrelease": "" 
   }
 }

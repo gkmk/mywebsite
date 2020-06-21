@@ -1,10 +1,3 @@
-<template>
-  <div class="hello">
-    <particles />
-    <welcome />
-  </div>
-</template>
-
 <script>
 /**
  * Version v0.0.1
@@ -21,6 +14,14 @@ export default {
   }
 };
 </script>
+
+<template>
+  <div class="hello">
+    <particles />
+    <welcome />
+  </div>
+</template>
+
 <style scoped>
 .hello {
   height: 100%;

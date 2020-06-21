@@ -1,7 +1,3 @@
-<template>
-  <div id="particles-js"></div>
-</template>
-
 <script>
 /**
  * Version v0.0.1
@@ -24,6 +20,11 @@ export default {
   }
 };
 </script>
+
+<template>
+  <div id="particles-js"></div>
+</template>
+
 <style scoped>
 #particles-js {
   width: 100%;
