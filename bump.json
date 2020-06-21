@@ -1,0 +1,7 @@
+{
+    "files": {
+      "README.md": [
+        ["^### version ?v?(.*)", "### version v[version]-alpha"]
+      ]
+    }
+  }
