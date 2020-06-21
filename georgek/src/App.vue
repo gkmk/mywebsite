@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <hello-world v-if="DEMO_MODE"/>
-    <my-website v-else/>
+    <hello-world/>
+    <!-- <my-website/> -->
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/demo/HelloWorld.vue'
-import MyWebsite from './components/app/MyWebsite.vue'
+// import MyWebsite from './components/app/MyWebsite.vue'
 
 export default {
   name: 'App',
@@ -18,7 +18,7 @@ export default {
   },
   components: {
     HelloWorld,
-    MyWebsite
+    // MyWebsite
   }
 }
 </script>

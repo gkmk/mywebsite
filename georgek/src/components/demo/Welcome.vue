@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div class="welcome">
-    <img alt="Gkmk logo" src="../../assets/img/gkmk.png" />
+    <img alt="Gkmk logo" src="../../assets/img/gk.png" />
     <article>
       <h1>
         Welcome to
