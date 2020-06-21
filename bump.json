@@ -24,7 +24,7 @@
     ] 
   },
   "changelog": {
-    "enabled": false,
+    "enabled": true,
     "create": true, 
     "open": true, 
     "file": "CHANGELOG.md", 
