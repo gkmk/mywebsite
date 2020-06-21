@@ -1,8 +1,4 @@
 <script>
-/**
- * Version v0.0.1
- */
-
 require("particles.js");
 
 export default {

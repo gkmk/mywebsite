@@ -5,10 +5,6 @@
 </template>
 
 <script>
-/**
- * Version v0.0.1
- */
-
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {

@@ -1,7 +1,3 @@
-/**
- * Version v0.0.1
- */
-
 // Load VUE
 import Vue from 'vue'
 import App from './App.vue'
