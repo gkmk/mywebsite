@@ -6,6 +6,10 @@
 </template>
 
 <script>
+/**
+ * Version v0.0.1
+ */
+
 import Particles from "./Particles.vue";
 import Welcome from "./Welcome.vue";
 

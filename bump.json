@@ -1,7 +1,83 @@
 {
-    "files": {
-      "README.md": [
-        ["^### version ?v?(.*)", "### version v[version]-alpha"]
+  "force": false, 
+  "silent": false, 
+  "files": { 
+    "README.md": [
+      [
+        "^### version ?v?(.*)",
+        "### version v[version]"
       ]
+    ],
+    "src/components/*": [
+      [
+        "^* Version ?v?(.*)",
+        "* Version v[version]"
+      ]
+    ]
+  },
+  "version": {
+    "enabled": true, 
+    "initial": "2020.6.0", 
+    "increments": [
+      "major",
+      "minor",
+      "patch",
+      "premajor",
+      "preminor",
+      "prepatch",
+      "prerelease",
+      "custom"
+    ] 
+  },
+  "changelog": {
+    "enabled": true,
+    "create": true, 
+    "open": true, 
+    "file": "CHANGELOG.md", 
+    "version": "### Version [version]", 
+    "commit": "- [message]", 
+    "separator": "\n" 
+  },
+  "commit": {
+    "enabled": true, 
+    "message": "Bumped version to [version]" 
+  },
+  "tag": {
+    "enabled": true, 
+    "name": "v[version]" 
+  },
+  "release": {
+    "enabled": false, 
+    "github": {
+      "enabled": false, 
+      "open": true, 
+      "draft": true,
+      "prerelease": false, 
+      "files": [], 
+      "filesNr": -1, 
+      "token": "", 
+      "owner": "", 
+      "repo": "" 
     }
+  },
+  "tokens": {
+    "date": {
+      "format": "YYYY-MM-DD" // Moment.js format to use when generating the `[date]` token
+    },
+    "version_date": {
+      "format": "YYYY-MM-DD" // Moment.js format to use when generating the `[version_date]` token
+    }
+  },
+  "scripts": {
+    "prebump": "", // Script to execute before bumping the version
+    "postbump": "", // Script to execute after bumping the version
+    "prechangelog": "", // Script to execute before updating the changelog
+    "postchangelog": "", // Script to execute after updating the changelog
+    "precommit": "", // Script to execute before committing
+    "postcommit": "", // Script to execute after committing
+    "pretag": "", // Script to execute before tagging
+    "posttag": "", // Script to execute after tagging
+    "prerelease": "", // Script to execute before releasing
+    "postrelease": "" // Script to execute after releasing
   }
+}
