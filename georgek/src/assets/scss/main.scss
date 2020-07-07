@@ -1,5 +1,10 @@
 @import "_colors.scss";
 
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/assets/fonts/Quicksand-VariableFont_wght.ttf) format('truetype');
+}
+
 // Bootstrap 
 // Required 
 @import "~bootstrap/scss/functions";
