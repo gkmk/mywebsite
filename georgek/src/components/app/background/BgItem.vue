@@ -45,7 +45,12 @@ export default {
         "paas",
         "saas",
         "oop",
-        "dots"
+        "dots",
+        "dod",
+        "linux",
+        "windows",
+        "docker",
+        "kubernetes",
       ]
     };
   },

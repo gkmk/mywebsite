@@ -23,5 +23,6 @@ export default {
 #fancy-bg {
   width: 100%;
   height: 100vh;
+  position: fixed;
 }
 </style>
