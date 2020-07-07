@@ -6,10 +6,12 @@
 }
 
 // Bootstrap 
-// Required 
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/mixins";
-// Optional
-@import "~bootstrap/scss/reboot";
-// End Bootstrap 
+@import "~bootstrap/scss/bootstrap";
+
+//  Animate
+//  Main
+@import "~animate.css/source/_base.css";
+@import "~animate.css/source/_vars.css";
+//  Effects
+@import "~animate.css/source/fading_entrances/fadeIn.css";
+@import "~animate.css/source/fading_exits/fadeOut.css";
